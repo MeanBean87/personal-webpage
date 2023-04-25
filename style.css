@@ -1,0 +1,96 @@
+    .gradient-background {
+    background: linear-gradient(300deg, #232F3E, #6E298D,  #214E8E,  #00A9E0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ .divider{
+    padding-top: 100px;
+ }
+
+ .hello-text {
+    padding-bottom: 20px;
+    color: #6E298D;
+    font-family: 'Electrolize', sans-serif; 
+ }
+
+ .about-text {
+   font-family: 'Quantico', sans-serif;
+ }
+
+ .card-title{
+    color:#00A9E0
+ }
+
+ .computerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100vh;
+ }
+
+ .list-img{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   position: relative;
+   right: 200px; 
+ }
+
+.list-text {
+   display: flex;
+   text-align: left;
+   align-items: center;
+   position: relative;
+   font-family: 'Quantico', sans-serif;
+}
+
+.img-format {
+   height: 50px;
+}
+
+.list-header {
+   font-size: 25px;
+   color: #6E298D;
+   font-family: 'Electrolize', sans-serif; 
+}
+
+.list-title {
+   font-size: 32px;
+   color: #6E298D;
+   font-family: 'Electrolize', sans-serif; 
+}
+
+.divider-skillslist-title{
+   padding-top: 50px; 
+}
+
+.title-text-h1{
+   text-align: center;
+   color: white;
+   font-family: 'Electrolize', sans-serif;
+   size: px;
+}
+
+.title-text-h2{
+   text-align: center;
+   color: white;
+   font-family: 'Electrolize', sans-serif; 
+}
+
+.body {
+background-color: #FDF7C3;
+}
